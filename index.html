@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mosala Nde Papa - Michel-Ange Bukasa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio autoplay loop id="bg-music">
+    <source src="assets/musique.mp3" type="audio/mp3">
+    Votre navigateur ne supporte pas l'audio HTML5.
+  </audio>
+
+  <div id="welcome-screen" class="welcome-screen">
+    <img src="assets/logo.png" alt="Logo Mosala Nde Papa" class="logo-large" />
+    <h1>Bienvenue sur le site officiel de Mosala Nde Papa</h1>
+    <p class="slogan">"Vous satisfaire, c'est notre passion — Mosala Nde Papa."</p>
+    <button onclick="enterSite()">Entrer dans le site</button>
+  </div>
+
+  <div id="main-content" class="hidden">
+    <div class="container">
+      <section class="biographie">
+        <h2>À propos de l'artiste</h2>
+        <p>
+          Michel-Ange Bukasa, artiste peintre congolais et PDG de Mosala Nde Papa, a étudié à l’Académie des Beaux-Arts de Kinshasa, où il s’est distingué par son talent exceptionnel. Il crée des œuvres uniques — portraits en couleur ou en noir et blanc, sculptures, photographies artistiques — pour valoriser la culture, l'identité et le style.
+
+En 2025, lors du deuxième sommet du concours Kongo Awards, Michel-Ange Bukasa a été élu meilleur artiste portraitiste du Kongo-Central. Il a écrasé la concurrence, malgré la tricherie de certains candidats, et s’est largement démarqué grâce à son style unique, une signature artistique reconnaissable : Mosala Nde Papa.
+        </p>
+      </section>
+
+      <section class="galerie">
+        <h2>Galerie d'œuvres</h2>
+        <div class="galerie-grid">
+          <img src="assets/art1.jpg" alt="Oeuvre 1" />
+          <img src="assets/art2.jpg" alt="Oeuvre 2" />
+          <video width="100%" controls><source src="assets/video1.mp4" type="video/mp4"></video>
+          <video width="100%" controls><source src="assets/video2.mp4" type="video/mp4"></video>
+        </div>
+      </section>
+
+      <section class="services">
+        <h2>Nos Services</h2>
+        <ul>
+          <li>Portraits personnalisés (couleurs et noir & blanc)</li>
+          <li>Sculptures sur commande</li>
+          <li>Photo shooting artistique (à venir)</li>
+        </ul>
+      </section>
+
+      <section class="contact">
+        <h2>Commande & Contact</h2>
+        <p>Envoyez-nous un message directement sur WhatsApp :</p>
+        <a href="https://wa.me/243893705790" class="whatsapp-button" target="_blank">Commander via WhatsApp</a>
+      </section>
+
+      <section class="developpeur">
+        <h2>À propos du créateur du site</h2>
+        <img src="assets/senpai.jpg" alt="Sapiens jc BIOSHI" class="dev-photo" />
+        <p><strong>Nom :</strong> Sapiens jc BIOSHI</p>
+        <p><strong>Surnom développeur :</strong> Senpai</p>
+        <a href="https://wa.me/243808664049" class="whatsapp-button" target="_blank">Contacter Senpai sur WhatsApp</a>
+      </section>
+
+      <footer>
+        <p>© 2025 Michel-Ange Bukasa – Mosala Nde Papa. Tous droits réservés.</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
